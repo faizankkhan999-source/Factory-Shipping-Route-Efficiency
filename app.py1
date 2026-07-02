@@ -1,0 +1,30 @@
+import streamlit as st
+
+st.set_page_config(page_title="Shipping Route Efficiency Analysis", layout="wide")
+
+st.title("Factory-to-Customer Shipping Route Efficiency Analysis")
+st.subheader("Nassau Candy Distributor")
+
+st.write("""
+This project analyzes the efficiency of factory-to-customer shipping routes
+for Nassau Candy Distributor. The analysis helps identify route performance,
+delivery delays, and opportunities for logistics optimization.
+""")
+
+st.header("Project Objectives")
+st.markdown("""
+- Analyze shipping route performance
+- Identify delayed routes
+- Evaluate regional shipment trends
+- Improve supply chain efficiency
+""")
+
+st.header("Key Insights")
+st.markdown("""
+1. Delivery performance varies across routes.
+2. Certain routes consistently experience delays.
+3. Factory performance differs significantly.
+4. Seasonal trends influence shipment demand.
+""")
+
+st.success("Project developed by Faizan Khan")
